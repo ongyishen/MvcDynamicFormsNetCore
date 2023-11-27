@@ -14,7 +14,11 @@ Please note that this project is still under development, so some features may n
 
 Stay tuned for more updates and happy coding!
 
-![Demo GIF](https://github.com/ongyishen/MvcDynamicFormsNetCore/blob/main/Demo.gif)
+![Demo GIF](https://github.com/ongyishen/MvcDynamicFormsNetCore/blob/main/Demo01.gif)
+
+![Demo GIF](https://github.com/ongyishen/MvcDynamicFormsNetCore/blob/main/Demo02.gif)
+
+![Demo GIF](https://github.com/ongyishen/MvcDynamicFormsNetCore/blob/main/Demo03.gif)
 
 # Fork Source
 
