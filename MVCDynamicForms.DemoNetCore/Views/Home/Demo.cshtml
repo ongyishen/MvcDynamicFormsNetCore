@@ -1,0 +1,37 @@
+﻿@model MvcDynamicForms.NetCore.Form
+
+@{
+    ViewBag.Title = "Demo";
+}
+
+<h2>MVC Dynamic Form Demo</h2>
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.Raw(Model.RenderErrorSummary())
+
+    @Html.Raw(Model.RenderHtml(false))
+
+    <input type="submit" value="Submit" />
+}
+
+@section Scripts{
+
+    <script type="text/javascript">
+        /* You can build in client side funcationality with dynamic forms also.
+        jQuery is very good for this sort of thing. */
+
+        $(function () {
+
+            // hide error labels when the user clicks on the offending input element
+            $('div.MvcFieldWrapper :input').focus(function () {
+                $(this).closest('div.MvcFieldWrapper').children('label.MvcDynamicFieldError').fadeOut();
+            });
+
+            // for demo5
+            $(".datepicker").datepicker();
+
+            $("#MvcDynamicField_Birthday").datepicker();
+        });
+    </script>
+}

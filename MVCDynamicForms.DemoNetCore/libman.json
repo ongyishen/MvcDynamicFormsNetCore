@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "cdnjs",
+      "library": "modernizr@2.8.3",
+      "destination": "wwwroot/lib/modernizr/"
+    }
+  ,
+{
+  "provider": "cdnjs",
+  "library": "respond.js@1.4.2",
+  "destination": "wwwroot/respond.js/"
+}
+,
+{
+  "provider": "jsdelivr",
+  "library": "@flexem/jquery-ui@1.12.1",
+  "destination": "wwwroot/flexem/jquery-ui/"
+}
+]
+}
