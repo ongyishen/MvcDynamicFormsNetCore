@@ -14,12 +14,6 @@ Please note that this project is still under development, so some features may n
 
 Stay tuned for more updates and happy coding!
 
-![Demo GIF](https://github.com/ongyishen/MvcDynamicFormsNetCore/blob/main/Demo01.gif)
-
-![Demo GIF](https://github.com/ongyishen/MvcDynamicFormsNetCore/blob/main/Demo02.gif)
-
-![Demo GIF](https://github.com/ongyishen/MvcDynamicFormsNetCore/blob/main/Demo03.gif)
-
 # Fork Source
 
 This is fork of ronnieoverby's project [ASP.NET MVC Dynamic Forms](https://github.com/lettucebo/MvcDynamicForms/).
@@ -27,28 +21,6 @@ This is fork of ronnieoverby's project [ASP.NET MVC Dynamic Forms](https://githu
 # Requirements
 
 this library requires .NET 7 and above.
-
-## Installation
-
-To install the "MvcDynamicForms.NetCore" package, follow these steps:
-
-1. Download the source code from the [GitHub repository](https://github.com/ongyishen/MvcDynamicFormsNetCore.git).
-2. Build your own DLL using the downloaded source code.
-3. Once you have the DLL properly built and referenced in your project, you can include calls to the package's functions in your code.
-
-if you have the NuGet package manager installed, you can grab them automatically.
-
-```
-PM> NuGet\Install-Package CodingStudio.Utils.MvcDynamicForms.NetCore
-```
-
-```
-> dotnet add package CodingStudio.Utils.MvcDynamicForms.NetCore
-```
-
-```
-<PackageReference Include="CodingStudio.Utils.MvcDynamicForms.NetCore" Version="1.0.1" />
-```
 
 For a sample implementation, you can check the [Demo](https://github.com/ongyishen/MvcDynamicFormsNetCore/tree/main/MVCDynamicForms.DemoNetCore) folder.
 
@@ -167,9 +139,5 @@ However, response time increases because of serialized data and the (de)serializ
 The approach you take depends on your needs.
 
 If this project helped you reduce time to develop, please consider buying me a cup of coffee :)
-<a href="https://www.buymeacoffee.com/ongyishen" 
-target="_blank">
-<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" 
-alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 [Google forms icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/google-forms)

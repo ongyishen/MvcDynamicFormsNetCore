@@ -10,9 +10,13 @@
     <Company>CodingStudio</Company>
     <Description>create dynamic forms in ASP.NET MVC Net 7</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageTags>Mvc;DynamicForm;NetCore;Form Builder</PackageTags>
+    <PackageTags>Mvc;DynamicForm;NetCore;FormBuilder;HTMLForm</PackageTags>
     <PackageIcon>dynamicforms.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Update ReadMe</PackageReleaseNotes>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +24,7 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\README.md">
+    <None Include="..\nuget\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
