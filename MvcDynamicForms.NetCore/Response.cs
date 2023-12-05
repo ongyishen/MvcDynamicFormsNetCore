@@ -19,5 +19,10 @@
         /// The key of the InputField object.
         /// </summary>
         public string Key { get; set; }
+
+        /// <summary>
+        /// The tag of the InputField object
+        /// </summary>
+        public string Tag { get; set; }
     }
 }

@@ -12,6 +12,7 @@ namespace MvcDynamicForms.NetCore.Fields.Abstract
     public abstract class Field
     {
         protected string _key = Guid.NewGuid().ToString().Replace("-", "");
+        protected string _tag = string.Empty;
         protected Form _form;
         private bool _display = true;
         protected Dictionary<string, DataItem> _dataDictionary = new Dictionary<string, DataItem>();
@@ -65,6 +66,19 @@ namespace MvcDynamicForms.NetCore.Fields.Abstract
                     this._form.Fields.ValidateKey(value);
 
                 this._key = value;
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the tag associated with the field.
+        /// </summary>
+        public string Tag
+        {
+            get { return this._tag; }
+            set
+            {
+
+                this._tag = value;
             }
         }
 

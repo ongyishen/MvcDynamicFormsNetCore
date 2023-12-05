@@ -239,7 +239,8 @@ namespace MvcDynamicForms.NetCore
                 {
                     Title = field.GetResponseTitle(),
                     Value = field.Response,
-                    Key = field.Key
+                    Key = field.Key,
+                    Tag = field.Tag
                 };
 
                 if (completedOnly && string.IsNullOrEmpty(response.Value))

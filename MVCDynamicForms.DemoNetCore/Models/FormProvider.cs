@@ -76,7 +76,8 @@ namespace MVCDynamicForms.DemoNetCore.Models
                 DisplayOrder = 20,
                 Required = true,
                 RequiredMessage = "Your full name is required",
-                Value = "ABC"
+                Value = "ABC",
+                Tag = "SOME TAG VALUE HERE"
             };
 
             var gender = new RadioList
