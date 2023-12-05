@@ -14,5 +14,10 @@
         /// The user's response.
         /// </summary>
         public string Value { get; set; }
+
+        /// <summary>
+        /// The key of the InputField object.
+        /// </summary>
+        public string Key { get; set; }
     }
 }

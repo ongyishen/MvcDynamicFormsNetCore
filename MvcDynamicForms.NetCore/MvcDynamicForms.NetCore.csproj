@@ -13,10 +13,15 @@
     <PackageTags>Mvc;DynamicForm;NetCore;FormBuilder;HTMLForm</PackageTags>
     <PackageIcon>dynamicforms.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>Update ReadMe</PackageReleaseNotes>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
-    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Add Key Field at Response
+Add Response Extension Method
+-ToInt
+-ToDecimal
+-ToBool
+-ToLong</PackageReleaseNotes>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

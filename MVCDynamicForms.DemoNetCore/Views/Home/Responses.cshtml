@@ -16,6 +16,9 @@
         <th>
             Field Response
         </th>
+        <th>
+            Field Key
+        </th>
     </tr>
     @{
         /* I'm going to simply echo the responses
@@ -37,6 +40,9 @@
                 </td>
                 <td>
                     @response.Value
+                </td>
+                <td>
+                    @response.Key
                 </td>
             </tr>
         }
