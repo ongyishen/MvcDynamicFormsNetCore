@@ -83,7 +83,9 @@ The `FormProvider.cs` file provides demo data to showcase how `MvcDynamicForms.N
 
 I hope this provides a clearer understanding of the code snippet. Let me know if you have any further questions!
 
-###[How to #1 Passing Form through ModelBinding](#how-to-1)
+### How to 1
+
+### Passing Form through ModelBinding
 
 In this Demo, the Form object graph is serialized to a string and stored in a hidden field in the page's HTML.
 
@@ -111,7 +113,9 @@ FormMethod.Post, new { enctype = "multipart/form-data" })) {
 }
 ```
 
-### [How to #2 Show the response](#how-to-2)
+### How to 2
+
+### Show the response
 
 In this Demo, simply show how to echo the responses.
 
