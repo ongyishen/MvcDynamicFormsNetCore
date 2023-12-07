@@ -1,0 +1,33 @@
+name: Build and Publish to NuGet
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup .NET 7
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '7.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore MvcDynamicForms.NetCore/MvcDynamicForms.NetCore.csproj
+
+    - name: Build project
+      run: dotnet build MvcDynamicForms.NetCore/MvcDynamicForms.NetCore.csproj --no-restore --configuration Release
+
+    - name: Pack project
+      run: dotnet pack MvcDynamicForms.NetCore/MvcDynamicForms.NetCore.csproj --no-build --configuration Release --output nupkgs
+
+    - name: Publish to NuGet
+      run: dotnet nuget push nupkgs/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
+      env:
+        NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
